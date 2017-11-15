@@ -1,4 +1,5 @@
 // Libraries
+import Mixpanel from 'mixpanel-browser';
 
 
 class MixpanelX {
@@ -7,25 +8,25 @@ class MixpanelX {
   // Initialize
   // --------------------------------------------------
   constructor({token}) {
-    // TODO
+    Mixpanel.init(token);
   }
 
   // --------------------------------------------------
   // Identity
   // --------------------------------------------------
   setUserId(userId) {
-    // TODO
+    Mixpanel.identify(userId.toString());
   }
 
   setUserProperties(properties) {
-    // TODO
+    Mixpanel.people.set(properties);
   }
 
   // --------------------------------------------------
   // Track
   // --------------------------------------------------
   logEvent(name, payload) {
-    // TODO
+    Mixpanel.track(name, payload);
   }
 
 }

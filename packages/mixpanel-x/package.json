@@ -22,7 +22,8 @@
   ],
   "dependencies": {
     "mixpanel-browser": "2.14.0",
-    "react-native-mixpanel": "0.0.15"
+    "react-native-mixpanel": "0.0.15",
+    "warning": "3.0.0"
   },
   "peerDependencies": {
   },
