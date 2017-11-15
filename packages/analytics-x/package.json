@@ -1,6 +1,6 @@
 {
   "name": "analytics-x",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Cross-platform analytics for React and React Native apps.",
   "license": "MIT",
   "author": "Mark Miyashita <negativetwelve@gmail.com>",
@@ -19,10 +19,6 @@
   "files": [
     "build"
   ],
-  "dependencies": {
-  },
-  "peerDependencies": {
-  },
   "scripts": {
     "build": "babel src --out-dir build --ignore \"**/__tests__/**\"",
     "clean": "rimraf build",
