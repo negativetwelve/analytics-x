@@ -1,6 +1,6 @@
 {
   "name": "mixpanel-x",
-  "version": "0.0.0",
+  "version": "0.0.2",
   "description": "Cross-platform Mixpanel analytics library.",
   "license": "MIT",
   "author": "Mark Miyashita <negativetwelve@gmail.com>",
@@ -24,8 +24,6 @@
     "mixpanel-browser": "2.14.0",
     "react-native-mixpanel": "0.0.15",
     "warning": "3.0.0"
-  },
-  "peerDependencies": {
   },
   "scripts": {
     "build": "babel src --out-dir build --ignore \"**/__tests__/**\"",

@@ -1,6 +1,6 @@
 {
   "name": "analytics-x",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Cross-platform analytics for React and React Native apps.",
   "license": "MIT",
   "author": "Mark Miyashita <negativetwelve@gmail.com>",
@@ -20,7 +20,7 @@
     "build"
   ],
   "dependencies": {
-    "mixpanel-x": "0.0.0"
+    "mixpanel-x": "^0.0.2"
   },
   "scripts": {
     "build": "babel src --out-dir build --ignore \"**/__tests__/**\"",
