@@ -1,0 +1,35 @@
+{
+  "name": "mixpanel-x",
+  "version": "0.0.0",
+  "description": "Cross-platform Mixpanel analytics library.",
+  "license": "MIT",
+  "author": "Mark Miyashita <negativetwelve@gmail.com>",
+  "homepage": "https://github.com/negativetwelve/analytics-x",
+  "repository": "https://github.com/negativetwelve/analytics-x/tree/master/packages/mixpanel-x",
+  "keywords": [
+    "analytics",
+    "analytics-x",
+    "cross-platform",
+    "mixpanel",
+    "platform",
+    "react",
+    "react-native",
+    "react-x"
+  ],
+  "main": "build/Mixpanel",
+  "files": [
+    "build"
+  ],
+  "dependencies": {
+    "mixpanel-browser": "2.14.0",
+    "react-native-mixpanel": "0.0.15",
+    "warning": "3.0.0"
+  },
+  "peerDependencies": {
+  },
+  "scripts": {
+    "build": "babel src --out-dir build --ignore \"**/__tests__/**\"",
+    "clean": "rimraf build",
+    "prepublishOnly": "yarn run clean && yarn run build"
+  }
+}
