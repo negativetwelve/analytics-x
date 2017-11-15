@@ -19,6 +19,9 @@
   "files": [
     "build"
   ],
+  "dependencies": {
+    "mixpanel-x": "0.0.0"
+  },
   "scripts": {
     "build": "babel src --out-dir build --ignore \"**/__tests__/**\"",
     "clean": "rimraf build",

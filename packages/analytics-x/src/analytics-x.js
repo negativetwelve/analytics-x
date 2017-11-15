@@ -1,6 +1,6 @@
 /* eslint-disable brace-style */
 const AnalyticsX = {
-  // TODO
+  get Mixpanel() { return require('mixpanel-x').default; },
 };
 
 
