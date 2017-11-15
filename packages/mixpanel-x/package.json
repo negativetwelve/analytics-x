@@ -21,6 +21,7 @@
     "build"
   ],
   "dependencies": {
+    "react-native-mixpanel": "0.0.15"
   },
   "peerDependencies": {
   },
