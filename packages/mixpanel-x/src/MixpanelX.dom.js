@@ -15,18 +15,18 @@ class MixpanelX {
   // Identity
   // --------------------------------------------------
   setUserId(userId) {
-    Mixpanel.identify(userId.toString());
+    return Mixpanel.identify(userId.toString());
   }
 
   setUserProperties(properties) {
-    Mixpanel.people.set(properties);
+    return Mixpanel.people.set(properties);
   }
 
   // --------------------------------------------------
   // Track
   // --------------------------------------------------
   logEvent(name, payload) {
-    Mixpanel.track(name, payload);
+    return Mixpanel.track(name, payload);
   }
 
 }

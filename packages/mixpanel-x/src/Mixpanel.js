@@ -23,18 +23,18 @@ class Mixpanel {
   // Identity
   // --------------------------------------------------
   setUserId(userId) {
-    this.sdk.setUserId(userId);
+    return this.sdk.setUserId(userId);
   }
 
   setUserProperties(properties) {
-    this.sdk.setUserProperties(properties);
+    return this.sdk.setUserProperties(properties);
   }
 
   // --------------------------------------------------
   // Track
   // --------------------------------------------------
   logEvent(name, payload) {
-    this.sdk.logEvent(name, payload);
+    return this.sdk.logEvent(name, payload);
   }
 
 }
