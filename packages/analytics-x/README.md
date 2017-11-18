@@ -4,7 +4,7 @@
 [![npm](https://img.shields.io/npm/dt/analytics-x.svg)](https://www.npmjs.com/package/analytics-x)
 [![npm](https://img.shields.io/npm/l/analytics-x.svg)](https://github.com/negativetwelve/analytics-x/blob/master/LICENSE)
 
-Cross-platform React components for ReactDOM and React Native.
+Cross-platform Analytics for React and React Native apps.
 
 ## Getting Started
 
