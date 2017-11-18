@@ -1,6 +1,6 @@
 {
   "name": "mixpanel-x",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Cross-platform Mixpanel analytics library.",
   "license": "MIT",
   "author": "Mark Miyashita <negativetwelve@gmail.com>",
